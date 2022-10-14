@@ -1,0 +1,29 @@
+.app__feature-name {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--color-primary);
+}
+
+.app__feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  padding-inline: 2rem;
+}
+
+.app__feature div {
+  width: 75px;
+  height: 2px;
+  background: var(--color-secondery);
+}
+
+.button-link {
+  font-family: var(--font-alt);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-secondery);
+}

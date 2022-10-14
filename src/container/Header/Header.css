@@ -1,0 +1,49 @@
+.app__header {
+  background-color: var(--color-primary);
+  background-image: url("../../assets/header-bg.png"),
+    url("../../assets/header-leaf.png");
+  background-repeat: no-repeat;
+  background-position: center, 40% 100%;
+  background-size: 59%, 20%;
+}
+
+.app__header_img::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/header-flower.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 20%;
+  font-size: 100px;
+  width: 400px;
+  height: 400px;
+}
+
+.app__header-image::before {
+  content: url("../../assets/head-leaf.png");
+}
+
+.app__header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app__header-buttons button:first-child {
+  border: none;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  padding: 12px 24px;
+  font-family: var(--font-alt);
+  font-weight: 700;
+}
+
+.app__header-buttons button:last-child {
+  border: 1px solid var(--color-white);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 12px 24px;
+  font-family: var(--font-alt);
+  font-weight: 700;
+}
